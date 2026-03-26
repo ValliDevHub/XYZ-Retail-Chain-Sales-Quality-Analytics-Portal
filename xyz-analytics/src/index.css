@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: var(--teal);
+  color: white;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.page {
+  margin-left: 220px;
+  padding: 20px;
+}
